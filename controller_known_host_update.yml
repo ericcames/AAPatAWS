@@ -1,6 +1,6 @@
 ---
 - name: Ensure we update the known_host file on the controllers
-  hosts: all
+  hosts: control
   gather_facts: false
 
   tasks:
